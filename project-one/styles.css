@@ -1,0 +1,48 @@
+a {
+  display: block;
+  padding: 19px;
+  background-color: #122432;
+  color: white;
+  width: 131px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+
+}
+
+body {
+  align-items: center;
+  margin-left: 500px;
+  font-family: 'abril-display';
+
+}
+
+h1 {
+  font-size: 84px;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+h2 {
+  margin-top: -1px;
+  padding: 0px;
+  font-size: 27px;
+}
+
+.picture {
+  display: flex;
+  justify-content: left;
+
+}
+
+#container {
+  margin: 0 auto;
+  padding: 0;
+  width: 50px;
+  height:50px;
+  color: #ffffff;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
