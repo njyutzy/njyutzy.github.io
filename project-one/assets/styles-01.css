@@ -1,0 +1,112 @@
+/* main style sheet for project 1 */
+
+
+body {
+  font-family: 'ohno-BLAZEFACE', sans-serif;
+  font-family: 'abril-display', sans-serif;
+  background-color: #122432;
+  font-size: 18px;
+  margin: -100px;
+}
+
+#container {
+  margin: 0 auto;
+  padding: 0;
+  width: 800px;
+  height:768px;
+  color: #ffffff;
+
+  background-image: url("../assets/background-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+p {
+  font-size: 1em;
+}
+
+h1 {
+  font-family: "ohno-blazeface", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 600px;
+  padding: 0;
+  margin: 23px;
+}
+
+h2,
+h3 {
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "ohno-blazeface", sans-serif;
+  font-size: 52px;
+  font-weight: 400;
+  margin-top: 174px;
+}
+
+h3 {
+  font-family: "abril-display", sans-serif;
+  font-size: 35px;
+  margin-top: -3px;
+}
+
+h4 {
+  font-family: "abril-display", sans-serif;
+  font-size: 20px;
+  margin-top: -3px;
+  font-weight: normal;
+}
+
+.letter-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.history-writeup {
+  margin-top: 110px;
+  margin-left: -150px;
+}
+
+.character-highlights {
+  font-family: "ohno-blazeface", sans-serif;
+  text-transform: uppercase;
+  font-size: 3.3333em;
+  margin-bottom: 69px;
+  letter-spacing: 5px;
+}
+
+.flexybox {
+  display: flex;
+}
+
+#my-photo {
+  width: 140px;
+  height: 200px;
+  margin-right: 60px;
+}
+
+.personal-title {
+  width: 300px;
+  margin-left: -47px;
+  margin-right: 115px;
+}
+
+.souces {
+  width: 358px;
+}
+
+button {
+  height: 52px;
+  width: 150px;
+  margin-top: 233px;
+  margin-left: 50px;
+}
+
+a {
+  color: #7EA9DD;
+  text-decoration: underline;
+}
