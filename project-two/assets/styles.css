@@ -31,7 +31,6 @@ nav {
   display: flex;
   justify-content: center;
   background-color: #000000;
-  height: 50px;
 }
 
 nav a{
@@ -41,7 +40,8 @@ nav a{
   display: block;
   text-decoration: none;
   font-size: 24px;
-  margin: 10px;
+  margin: 0 10px;
+  padding: 5px 0px;
 
 }
 
@@ -89,6 +89,14 @@ h4 {
   margin: 25px;
 }
 
+a.header-link {
+  text-decoration: none;
+}
+
+nav a:hover,nav a.active {
+  border-bottom: 5px solid #ffffff;
+}
+
 #home-photo {
   width: 600px;
 
@@ -96,6 +104,10 @@ h4 {
 
 #advocacy-photo {
   width: 600px;
+}
+
+#i-promise.active {
+  border-bottom: 5px, solid, #ffffff;
 }
 
 #i-promise-photo {
