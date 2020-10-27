@@ -60,8 +60,8 @@ h1 {
 }
 
 h2 {
-  font-family: "aktiv-grotesk",sans-serif;
-  font-size: 80px;
+  font-family: "henriette",serif;
+  font-size: 60px;
 }
 
 h3 {
@@ -85,7 +85,7 @@ h4 {
 }
 
 .h2-homepage {
-  display: flex;
+  display: block;
   margin: 25px;
 }
 
