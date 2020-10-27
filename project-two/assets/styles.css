@@ -79,7 +79,7 @@ h4 {
 .body-homepage {
   margin:120px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 
 }
