@@ -31,6 +31,12 @@ nav {
   display: flex;
   justify-content: center;
   background-color: #000000;
+  width: 100vw;
+}
+
+nav.home {
+  box-sizing: border-box;
+  height: 42px;
 }
 
 nav a{
@@ -97,27 +103,15 @@ nav a:hover,nav a.active {
   border-bottom: 5px solid #ffffff;
 }
 
+#advocacy-photo
+#i-promise-photo
+#early-life-photo
+#pro-career-photo
 #home-photo {
   width: 600px;
 
 }
 
-#advocacy-photo {
-  width: 600px;
-}
-
 #i-promise.active {
   border-bottom: 5px, solid, #ffffff;
-}
-
-#i-promise-photo {
-  width: 600px;
-}
-
-#early-life-photo {
-  width: 600px;
-}
-
-#pro-career-photo {
-  width: 600px;
 }
