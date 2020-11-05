@@ -52,7 +52,8 @@ nav a{
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.1em;
+  line-height: 1.3em;
 }
 
 h1 {
@@ -68,6 +69,12 @@ h1 {
 h2 {
   font-family: "henriette",serif;
   font-size: 60px;
+  margin-bottom: 13px;
+  margin-top: -36px;
+}
+
+.h2-style {
+
 }
 
 h3 {
@@ -83,7 +90,7 @@ h4 {
 }
 
 .body-homepage {
-  margin:120px;
+  margin:154px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
