@@ -9,6 +9,15 @@ a {
 
 }
 
+section.one {
+margin: 0 auto;
+}
+
+section.two {
+  margin: 0 auto;
+  justify-content: center;
+}
+
 body {
   align-items: center;
   margin-left: 450px;
@@ -30,10 +39,25 @@ h2 {
   font-size: 27px;
 }
 
+.header{
+  display: block;
+  align-items: center;
+}
+
+.homepage {
+  display: flex;
+}
+
 .picture {
   display: flex;
   justify-content: left;
+  height: 800px;
+}
 
+.button {
+  position: absolute;
+  height: 800px;
+  margin-left: 550px;
 }
 
 #container {
@@ -47,6 +71,8 @@ h2 {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+
 
 #letter-analysis {
   opacity: 0;

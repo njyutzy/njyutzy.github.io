@@ -90,7 +90,7 @@ h4 {
 }
 
 .body-homepage {
-  margin:154px;
+  margin:125px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -118,4 +118,11 @@ nav a:hover,nav a.active {
 
 #i-promise.active {
   border-bottom: 5px, solid, #ffffff;
+}
+
+button{
+  background-color: #000000;
+  width: 539px;
+  height: 140px;
+  border: none;
 }
