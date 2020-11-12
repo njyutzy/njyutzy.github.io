@@ -1,0 +1,126 @@
+/* This is the stylesheet for Exercise 9 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+  font-size: 20px;
+  font-family: 'source-sans', sans-serif;
+  padding: 0px;
+}
+
+header {
+  background-color: #7bc86c;
+  color:#000000;
+  text-align:center;
+  padding: 2em;
+}
+
+footer {
+  background-color:#94714f;
+  color:#ffffff;
+  text-align: center;
+}
+
+p {
+  font-size: 1em;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+footer img {
+  width: 5%;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'nazare', 'serif'
+}
+
+
+/********** Media Queries *************/
+
+/* Tablet Styles */
+@media screen and (min-width:775px) {
+
+header {
+  padding: 1em;
+}
+
+body {
+  font-size: 18px;
+  padding: 0px;
+}
+
+section {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+p {
+  padding: 0px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+p,
+ .row img{
+  margin: .5em 0;
+  width: 100%;
+}
+
+.row img,
+.row p {
+  width: 45%;
+}
+
+}
+
+
+/* Desktop Styles */
+@media screen and (min-width:1055px) {
+
+
+section {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+p,
+ .row img{
+  margin: .5em 0;
+  width: 30%;
+}
+
+.row img,
+.row p {
+  width: 45%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+<span>Photo by <a href="https://unsplash.com/@seanbenesh?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sean Benesh</a> on <a href="https://unsplash.com/s/photos/disc-golf?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
+<span>Photo by <a href="https://unsplash.com/@rane?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Rane Ahonen</a> on <a href="https://unsplash.com/s/photos/disc-golf?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
