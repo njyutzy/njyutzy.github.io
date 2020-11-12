@@ -71,6 +71,10 @@ p {
   justify-content: space-between;
 }
 
+.row img {
+  align-self:flex-start;
+}
+
 p,
  .row img{
   margin: .5em 0;
@@ -88,6 +92,9 @@ p,
 /* Desktop Styles */
 @media screen and (min-width:1055px) {
 
+  .row img {
+    align-self:flex-start;
+  }
 
 section {
   width: 80vw;
@@ -103,12 +110,16 @@ section {
 p,
  .row img{
   margin: .5em 0;
-  width: 30%;
+  width: 45%;
 }
 
 .row img,
 .row p {
   width: 45%;
+}
+
+footer {
+
 }
 
 }
