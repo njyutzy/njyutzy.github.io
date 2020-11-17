@@ -7,13 +7,111 @@
   padding:0px;
 }
 
+body {
+  font-size: 18px;
+
+  font-family: 'abril-display', serif;
+  font-family: 'HelveticaNeue-CondensedBold', sans-serif;
+
+}
+
+h1, h3{
+  font-family: 'HelveticaNeue-CondensedBold', sans-serif;
+  font-weight: black;
+  font-stretch: condensed;
+}
+  h3 {
+    font-family:'HelveticaNeue-CondensedBold', sans-serif;
+  }
+  h4 {
+    font-family: 'abril-display', serif;
+    font-size: .75em;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h2 {
+  font-family: 'abril-display', serif;
+  font-weight: normal;
+}
+
 header {
-  text-align: center;
+  text-align: left;
   background-color: #9EAEC6;
   height: 362px;
 }
 
+header h1 {
+  margin-top: .34em;
+  font-size: 3em;
+  line-height: 1em;
+}
 
+header h2 {
+  font-size: 1.5em;
+  font-family: 'abril-display', serif;
+  margin-top: .2em;
+}
+
+header h6 {
+  font-family: 'Abril-Display', serif;
+  color: #000000;
+  text-decoration: none;
+  margin-top: 10px;
+  line-height: 9px;
+}
+
+header img {
+  width: 150px;
+  align-self: start;
+    margin-top: 50px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 60.2857%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.header {
+  margin-left: 10px;
+    margin-top: 30px;
+}
+
+section {
+  background-color: #DEE6F2;
+}
+
+.body h1 {
+  text-align: center;
+  background-color: #000000;
+  height: 40px;
+  color: #ffffff;
+}
+
+.body h3 {
+  margin-top: 25px;
+}
+
+.body h4, h3{
+  width: 79.571%;
+  margin: 0 auto;
+}
+
+.body h4 {
+  margin-bottom: -15px;
+}
+.body h6 {
+  font-family: 'abril-display', serif;
+  font-size: 1em;
+  width: 79.571%;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: normal;
+}
 
 
 
