@@ -116,16 +116,29 @@ section {
 
 
 
-
-
-
 /* ********** MEDIA QUERIES ********************* */
 
 /* Tablet Design */
 @media screen and (min-width:768px) and (max-width:1024px) {
 
+.body h6{
+  font-family: 'abril-display', serif;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: normal;
+  font-size: 16px;
+  width: 62.178%;
+}
+
+.body h4, h3 {
+  width: 62.178%;
+}
+
+.header {
 
 }
+
 
 
 /* Desktop Design */
